@@ -1,0 +1,62 @@
+:root {
+  --background-color: #10161d; /* Dark Olive */
+  --text-color: hsl(54, 15%, 87%); /* White Green */
+  --container-background: #000814; /* Gray Green */
+  --box-shadow-color: #556676; /* Sage Green */
+  --link-color: #cca000; /* Golden Brown */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  background-image: url("./src/anim.svg");
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  background: var(--container-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px var(--box-shadow-color);
+  width: 90%;
+  max-width: 400px;
+}
+
+.picture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.links li {
+  margin: 10px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
